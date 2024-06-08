@@ -10,6 +10,10 @@
         <h1>
             <?php
                 echo "Hello World!";
+                // This is a comment
+                /*
+                    This is a multi-line comment
+                */
             ?>
         </h1>
     </div>
