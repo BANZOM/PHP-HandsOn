@@ -60,6 +60,46 @@
                 var_dump(!$var1);
             ?>
         </h2>
+        <hr>
+        <h2>
+            <p>Constants</p>
+            <?php
+                define("PI", 3.14);
+                echo "The value of PI is: ".PI." and its type is: ".gettype(PI);
+            ?>
+        </h2>
+
+        <hr>
+        <h2>
+            <p>Arrays:</p>
+            <?php
+                $arr = array(1, 2, 3, 4, 5);
+                echo "The value of arr[0] is: ".$arr[0];
+                echo "<br>";
+                echo "The value of arr[1] is: ".$arr[1];
+                echo "<br>";
+                echo "The value of arr[2] is: ".$arr[2];
+                echo "<br>";
+                echo "The value of arr[3] is: ".$arr[3];
+                echo "<br>";
+                echo "The value of arr[4] is: ".$arr[4];
+                echo "<br>";
+            ?>
+        </h2>
+
+        <hr>
+        <h2>
+            <p>Associative Arrays:</p>
+            <?php
+                $arr = array("name"=>"John", "age"=>25, "city"=>"New York");
+                echo "The value of arr['name'] is: ".$arr['name'];
+                echo "<br>";
+                echo "The value of arr['age'] is: ".$arr['age'];
+                echo "<br>";
+                echo "The value of arr['city'] is: ".$arr['city'];
+                echo "<br>";
+            ?>
+        </h2>
     </div>
 </body>
 </html>
