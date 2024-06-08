@@ -16,6 +16,15 @@
                 */
             ?>
         </h1>
+
+        <h2>
+            <?php
+                $var1 = 10;
+                $var2 = 20;
+                $sum = $var1 + $var2;
+                echo "The sum of $var1 and $var2 is $sum";
+            ?>
+        </h2>
     </div>
 </body>
 </html>
