@@ -15,7 +15,7 @@
         $phone = $_POST['phone'];
         $others = $_POST['others'];
 
-        $sql = "INSERT INTO `trip` (`name`, `age`, `gender`, `phone`, `others`, `dt`) VALUE ('$name', '$age', '$gender', '$phone', '$others', current_timestamp());";
+        $sql = "INSERT INTO `trip` (`name`, `age`, `gender`, `phone`, `others`, `dt`) VALUES ('$name', '$age', '$gender', '$phone', '$others', current_timestamp());";
 
         if ($conn->query($sql) == TRUE) {
             // echo "New record created successfully";
