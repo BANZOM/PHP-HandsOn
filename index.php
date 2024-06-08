@@ -37,6 +37,29 @@
                 var_dump($var1==$var2);
             ?>
         </h2>
+        <hr>
+        <h2>
+            <p>Logical Operators</p>
+            <?php
+                $var1 = 10;
+                $var2 = 20;
+                // use of var_dump() function
+                echo "The value of $var1 AND $var2 is: ";
+                var_dump($var1 and $var2);
+                echo "<br>";
+                echo "The value of $var1 && $var2 is: ";
+                var_dump($var1 && $var2);
+                echo "<br>";
+                echo "The value of $var1 || $var2 is: ";
+                var_dump($var1 || $var2);
+                echo "<br>";
+                echo "The value of $var1 XOR $var2 is: ";
+                var_dump($var1 xor $var2);
+                echo "<br>";
+                echo "The value of !$var1 is: ";
+                var_dump(!$var1);
+            ?>
+        </h2>
     </div>
 </body>
 </html>
