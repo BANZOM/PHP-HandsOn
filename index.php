@@ -23,6 +23,8 @@
                 $var2 = 20;
                 $sum = $var1 + $var2;
                 echo "The sum of $var1 and $var2 is $sum";
+                echo "<br>";
+                ECHo "This is a test"; // Case-insensitive
             ?>
         </h2>
     </div>
