@@ -100,6 +100,43 @@
                 echo "<br>";
             ?>
         </h2>
+
+        <hr>
+        <h2>
+            <p>Loops:</p>
+            <?php
+                $arr = array(1, 2, 3, 4, 5);
+                echo "Using for loop: ";
+                for($i=0; $i<count($arr); $i++){
+                    echo $arr[$i]." ";
+                }
+                echo "<br>";
+                echo "Using foreach loop: ";
+                foreach($arr as $val){
+                    echo $val." ";
+                }
+                echo "<br>";
+                echo "Using while loop: ";
+                $i = 0;
+                while($i<count($arr)){
+                    echo $arr[$i]." ";
+                    $i++;
+                }
+            ?>
+        </h2>
+
+        <hr>
+        <h2>
+            <p>Functions:</p>
+            <?php
+                function add($a, $b){
+                    return $a+$b;
+                }
+                echo "The sum of 10 and 20 is: ".add(10, 20);
+                echo "<br>";
+                echo "The sum of 30 and 40 is: ".add(30, 40);
+            ?>
+        </h2>
     </div>
 </body>
 </html>
